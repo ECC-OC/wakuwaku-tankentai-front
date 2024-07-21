@@ -11,7 +11,7 @@ import SwiftUI
 struct wakuwaku_tankentaiApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            TopView()
         }
     }
 }
