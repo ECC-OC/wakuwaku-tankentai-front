@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		372D105D2C4C3AA200B12F09 /* wakuwaku_tankentaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D105C2C4C3AA200B12F09 /* wakuwaku_tankentaiApp.swift */; };
-		372D105F2C4C3AA200B12F09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D105E2C4C3AA200B12F09 /* LoginView.swift */; };
+		372D105F2C4C3AA200B12F09 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D105E2C4C3AA200B12F09 /* TopView.swift */; };
 		372D10612C4C3AA300B12F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372D10602C4C3AA300B12F09 /* Assets.xcassets */; };
 		372D10642C4C3AA300B12F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372D10632C4C3AA300B12F09 /* Preview Assets.xcassets */; };
 		372D106E2C4C3AA300B12F09 /* wakuwaku_tankentaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D106D2C4C3AA300B12F09 /* wakuwaku_tankentaiTests.swift */; };
 		372D10782C4C3AA300B12F09 /* wakuwaku_tankentaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D10772C4C3AA300B12F09 /* wakuwaku_tankentaiUITests.swift */; };
 		372D107A2C4C3AA300B12F09 /* wakuwaku_tankentaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D10792C4C3AA300B12F09 /* wakuwaku_tankentaiUITestsLaunchTests.swift */; };
+		372D10892C4C40A600B12F09 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D10882C4C40A600B12F09 /* Background.swift */; };
+		372D108B2C4C502400B12F09 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D108A2C4C502400B12F09 /* CustomButton.swift */; };
+		372D108D2C4CE1D200B12F09 /* CustomIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D108C2C4CE1D200B12F09 /* CustomIcon.swift */; };
+		372D10912C4CF31000B12F09 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D10902C4CF31000B12F09 /* SignInView.swift */; };
+		372D10932C4CF37600B12F09 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D10922C4CF37600B12F09 /* Card.swift */; };
+		372D10992C4D00DD00B12F09 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D10982C4D00DD00B12F09 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		372D10592C4C3AA200B12F09 /* wakuwaku-tankentai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wakuwaku-tankentai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		372D105C2C4C3AA200B12F09 /* wakuwaku_tankentaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakuwaku_tankentaiApp.swift; sourceTree = "<group>"; };
-		372D105E2C4C3AA200B12F09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		372D105E2C4C3AA200B12F09 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		372D10602C4C3AA300B12F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372D10632C4C3AA300B12F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		372D10692C4C3AA300B12F09 /* wakuwaku-tankentaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wakuwaku-tankentaiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		372D10732C4C3AA300B12F09 /* wakuwaku-tankentaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wakuwaku-tankentaiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		372D10772C4C3AA300B12F09 /* wakuwaku_tankentaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakuwaku_tankentaiUITests.swift; sourceTree = "<group>"; };
 		372D10792C4C3AA300B12F09 /* wakuwaku_tankentaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakuwaku_tankentaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		372D10882C4C40A600B12F09 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		372D108A2C4C502400B12F09 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		372D108C2C4CE1D200B12F09 /* CustomIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIcon.swift; sourceTree = "<group>"; };
+		372D10902C4CF31000B12F09 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		372D10922C4CF37600B12F09 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		372D10982C4D00DD00B12F09 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +142,23 @@
 		372D10862C4C3AF400B12F09 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				372D105E2C4C3AA200B12F09 /* LoginView.swift */,
+				372D10872C4C406A00B12F09 /* components */,
+				372D105E2C4C3AA200B12F09 /* TopView.swift */,
+				372D10902C4CF31000B12F09 /* SignInView.swift */,
+				372D10982C4D00DD00B12F09 /* SignUpView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		372D10872C4C406A00B12F09 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				372D10882C4C40A600B12F09 /* Background.swift */,
+				372D108A2C4C502400B12F09 /* CustomButton.swift */,
+				372D108C2C4CE1D200B12F09 /* CustomIcon.swift */,
+				372D10922C4CF37600B12F09 /* Card.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372D105F2C4C3AA200B12F09 /* LoginView.swift in Sources */,
+				372D10912C4CF31000B12F09 /* SignInView.swift in Sources */,
+				372D10932C4CF37600B12F09 /* Card.swift in Sources */,
+				372D105F2C4C3AA200B12F09 /* TopView.swift in Sources */,
 				372D105D2C4C3AA200B12F09 /* wakuwaku_tankentaiApp.swift in Sources */,
+				372D10992C4D00DD00B12F09 /* SignUpView.swift in Sources */,
+				372D10892C4C40A600B12F09 /* Background.swift in Sources */,
+				372D108B2C4C502400B12F09 /* CustomButton.swift in Sources */,
+				372D108D2C4CE1D200B12F09 /* CustomIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
